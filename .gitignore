@@ -1,0 +1,11 @@
+*.RData
+*.rds
+*.h5seurat
+*.h5ad
+*.mtx*
+*.loom
+GSE*_RAW*/
+data_raw/
+data_processed/
+.DS_Store
+
