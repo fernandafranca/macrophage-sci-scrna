@@ -57,19 +57,21 @@ These populations appear consistently across all three datasets.
 ---
 
 ## 📁 Repository Structure
-macrophage-fsf-sci-scrna/
-├── scripts/ # All analysis scripts used for the paper
-├── results/ # Tables derived from the analyses
-│ ├── tables/ # cluster summaries, FSF gene lists, top10 DEGs
-│ └── singler/ # cross-dataset SingleR comparison outputs
-├── figures/ # Representative figures used in the manuscript
-│ ├── overview/
-│ ├── salavdor_A/
-│ ├── milich_B/
-│ ├── brennan_C/
-│ └── singler/
-└── README.md
 
+```text
+macrophage-fsf-sci-scrna/
+├── scripts/        # All analysis scripts used for the paper
+├── results/        # Tables derived from the analyses
+│   ├── tables/     # cluster summaries, FSF gene lists, top10 DEGs
+│   └── singler/    # cross-dataset SingleR comparison outputs
+├── figures/        # Representative figures used in the manuscript
+│   ├── overview/
+│   ├── salvador_A/
+│   ├── milich_B/
+│   ├── brennan_C/
+│   └── singler/
+└── README.md
+```
 Large objects such as raw matrices, Seurat objects, and `.RData` workspaces are excluded and ignored by `.gitignore`.
 
 ---
@@ -130,5 +132,3 @@ This repository intentionally focuses on **analysis logic + scientific outputs**
 **Fernanda Stapenhorst França, PhD**  
 Postdoctoral Researcher – Gensel Lab  
 University of Kentucky  
-
-This repository is part of a larger effort to build a **macrophage state atlas** across injury, aging, and drug-response conditions using multi-omics.
