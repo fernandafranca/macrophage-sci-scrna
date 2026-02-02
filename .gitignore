@@ -4,8 +4,12 @@
 *.h5ad
 *.mtx*
 *.loom
+*.tar
+*.tar.gz
 GSE*_RAW*/
 data_raw/
 data_processed/
+local_data/
 .DS_Store
+
 
